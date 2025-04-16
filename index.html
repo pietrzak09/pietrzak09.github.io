@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>pietrzakomaja</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #fff0f5;
+      background-color: #fde9ef;
+      font-family: 'Arial', sans-serif;
       text-align: center;
+      color: #d63384;
       padding: 30px;
-      color: #333;
     }
     h1 {
-      color: #e75480;
       font-size: 2.5em;
+      margin-bottom: 10px;
     }
     p {
+      color: #444;
       font-size: 1.2em;
-      margin-bottom: 20px;
     }
     .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 30px;
     }
     .gallery img {
-      width: 250px;
-      border-radius: 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       transition: transform 0.3s ease;
     }
     .gallery img:hover {
@@ -37,23 +38,30 @@
     .footer {
       margin-top: 40px;
       font-style: italic;
-      color: #888;
+      color: #999;
     }
   </style>
 </head>
 <body>
-
   <h1>pietrzakomaja</h1>
-  <p>ej... może to przeznaczenie, że tu trafiłaś?</p>
-  <p>nie mów nikomu... ale chyba jesteś tu, bo jesteś wyjątkowa.</p>
+  <p>ej… może to przeznaczenie, że tu trafiłaś?<br>
+  nie mów nikomu… ale chyba jesteś tu, bo jesteś wyjątkowa.</p>
 
   <div class="gallery">
-    <img src="images/zdjecie1.jpg" alt="zdjęcie"><img src="images/zdjecie2.jpg" alt="zdjęcie"><img src="images/zdjecie3.jpg" alt="zdjęcie"><img src="images/zdjecie4.jpg" alt="zdjęcie"><img src="images/zdjecie5.jpg" alt="zdjęcie"><img src="images/zdjecie6.jpg" alt="zdjęcie"><img src="images/zdjecie7.jpg" alt="zdjęcie"><img src="images/zdjecie8.jpg" alt="zdjęcie">
+    <img src="9d76c92b-0ad6-4daa-846e-4a9e94b0b3a5photo.png.jpeg" alt="zdjęcie">
+    <img src="Messenger_creation_1CCE9851-53E7-4CEE-88F9-93249562926F.jpeg" alt="zdjęcie">
+    <img src="Messenger_creation_26655936-A116-4D2D-BF42-5291AB91FBEA.jpeg" alt="zdjęcie">
+    <img src="Messenger_creation_33578825-F47B-4851-9C1F-4FDB1B59FDC7.jpeg" alt="zdjęcie">
+    <img src="Messenger_creation_465862EC-ACDC-418A-B3F2-26E4EC7A81A1.jpeg" alt="zdjęcie">
+    <img src="Messenger_creation_581C9F3F-4062-423C-88AE-7FC264E5035E.jpeg" alt="zdjęcie">
+    <img src="Messenger_creation_94BF01DC-15C5-4280-872B-FA52C394FAF9.jpeg" alt="zdjęcie">
+    <img src="Messenger_creation_B1DE5107-FBBF-43CF-88CE-1C480338449E.jpeg" alt="zdjęcie">
+    <img src="Messenger_creation_C3D4A7E5-C0AD-4703-A286-2DC7E87145F9.jpeg" alt="zdjęcie">
+    <img src="Messenger_creation_DAA109D8-6657-429D-A54C-96CA60667F13.jpeg" alt="zdjęcie">
   </div>
 
   <div class="footer">
     Strona stworzona z miłością (i nutką podrywu) – tylko dla niej.
   </div>
-
 </body>
 </html>
